@@ -5,9 +5,31 @@ import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Soins — Aesop Paris",
+  title: "Soins Botaniques",
   description:
     "Découvrez la gamme complète de soins botaniques Aesop. Sérums, nettoyants, hydratants et baumes formulés avec des ingrédients naturels premium.",
+  openGraph: {
+    title: "Soins Botaniques — Aesop Paris",
+    description:
+      "Sérums, nettoyants, hydratants et baumes. Ingrédients naturels premium, formulations australiennes.",
+    url: "https://aesop-paris.com/produits",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1715702480583-1f4e3db0408c?w=1200&auto=format&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "Gamme de soins botaniques Aesop",
+      },
+    ],
+  },
+  twitter: {
+    title: "Soins Botaniques — Aesop Paris",
+    description:
+      "Sérums, nettoyants, hydratants et baumes. Ingrédients naturels premium.",
+    images: [
+      "https://images.unsplash.com/photo-1715702480583-1f4e3db0408c?w=1200&auto=format&fit=crop",
+    ],
+  },
 };
 
 const categories = [

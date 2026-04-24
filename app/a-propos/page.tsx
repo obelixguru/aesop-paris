@@ -5,9 +5,31 @@ import Footer from "../components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Notre histoire — Aesop Paris",
+  title: "Notre histoire",
   description:
     "Fondée à Melbourne en 1987, Aesop crée des formulations botaniques rigoureuses. Découvrez notre philosophie et notre engagement envers la qualité.",
+  openGraph: {
+    title: "Notre histoire — Aesop Paris",
+    description:
+      "De Melbourne à Paris. Depuis 1987, des formulations botaniques rigoureuses au service de la peau.",
+    url: "https://aesop-paris.com/a-propos",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1761746604770-abc00f8e55b8?w=1200&auto=format&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "Ingrédients botaniques Aesop",
+      },
+    ],
+  },
+  twitter: {
+    title: "Notre histoire — Aesop Paris",
+    description:
+      "De Melbourne à Paris. Formulations botaniques rigoureuses depuis 1987.",
+    images: [
+      "https://images.unsplash.com/photo-1761746604770-abc00f8e55b8?w=1200&auto=format&fit=crop",
+    ],
+  },
 };
 
 const timeline = [

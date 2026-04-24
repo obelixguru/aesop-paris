@@ -1,7 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+
+export const metadata: Metadata = {
+  title: "Aesop Paris — Soins Botaniques Premium au Le Bon Marché",
+  description:
+    "Découvrez les soins botaniques Aesop au Le Bon Marché, 24 Rue de Sèvres, Paris 7e. Formulations australiennes premium depuis 1987. Sérums, nettoyants, hydratants.",
+  openGraph: {
+    title: "Aesop Paris — Soins Botaniques Premium",
+    description:
+      "Formulations australiennes premium depuis 1987. Retrouvez-nous au Le Bon Marché, Paris 7e.",
+    url: "https://aesop-paris.com",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=1200&auto=format&fit=crop",
+        width: 1200,
+        height: 630,
+        alt: "Soins botaniques Aesop — sérum premium",
+      },
+    ],
+  },
+  twitter: {
+    title: "Aesop Paris — Soins Botaniques Premium",
+    description:
+      "Formulations australiennes premium depuis 1987. Au Le Bon Marché, Paris 7e.",
+    images: [
+      "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=1200&auto=format&fit=crop",
+    ],
+  },
+};
 
 const bestsellers = [
   {

@@ -8,9 +8,34 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Aesop Paris — Soins Premium",
+  title: {
+    default: "Aesop Paris — Soins Botaniques Premium",
+    template: "%s | Aesop Paris",
+  },
   description:
     "Aesop Paris au Le Bon Marché, 24 Rue de Sèvres. Soins botaniques premium, formulations australiennes depuis 1987.",
+  metadataBase: new URL("https://aesop-paris.com"),
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    siteName: "Aesop Paris",
+    images: [
+      {
+        url: "/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "Aesop Paris — Soins Botaniques Premium",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@aaboropharma",
+    creator: "@aaboropharma",
+  },
+  alternates: {
+    canonical: "https://aesop-paris.com",
+  },
 };
 
 const localBusinessSchema = {
