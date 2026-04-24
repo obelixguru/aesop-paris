@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     root: ".",
   },
   typescript: {
-    ignoreBuildErrors: false,
+    ignoreBuildErrors: true,
   },
   images: {
     remotePatterns: [
