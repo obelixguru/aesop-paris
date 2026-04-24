@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "type": "event",
+      "category": "conversion",
+      "action": "cta_click",
+      "label": "hero_discover",
+      "value": null,
+      "path": "/",
+      "sessionId": "qa-test-001",
+      "timestamp": "2026-04-24T13:18:29.463Z"
+    }
+  ]
+}
