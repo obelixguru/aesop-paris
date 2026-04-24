@@ -81,6 +81,7 @@ export default function AProposPage() {
             src="https://images.unsplash.com/photo-1761746604770-abc00f8e55b8?w=1400&auto=format&fit=crop"
             alt="Ingrédients botaniques — formulations Aesop"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />

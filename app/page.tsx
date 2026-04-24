@@ -74,6 +74,7 @@ export default function Home() {
             src="https://images.unsplash.com/photo-1715702449456-01929266fea8?w=1400&auto=format&fit=crop"
             alt="Soins Aesop — formulations botaniques premium"
             fill
+            sizes="100vw"
             className="object-cover"
             priority
           />
@@ -142,6 +143,7 @@ export default function Home() {
                     src={product.image}
                     alt={product.name}
                     fill
+                    sizes="(max-width: 768px) 50vw, 25vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -183,6 +185,7 @@ export default function Home() {
                 src="https://images.unsplash.com/photo-1735448213858-6bdfdf78967a?w=800&auto=format&fit=crop"
                 alt="Boutique Aesop au Bon Marché Paris"
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>

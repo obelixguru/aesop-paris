@@ -260,6 +260,7 @@ export default function ProductDetail({ slug }: { slug: string }) {
                 src={product.images[imageIndex]}
                 alt={product.name}
                 fill
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
                 priority
               />
