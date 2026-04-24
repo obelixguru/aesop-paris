@@ -30,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@aaboropharma",
-    creator: "@aaboropharma",
+    site: "@aesopskincare",
+    creator: "@aesopskincare",
   },
   alternates: {
     canonical: "https://aesop-paris.com",
@@ -65,7 +65,7 @@ const localBusinessSchema = {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       opens: "10:00",
-      closes: "19:30",
+      closes: "20:00",
     },
     {
       "@type": "OpeningHoursSpecification",

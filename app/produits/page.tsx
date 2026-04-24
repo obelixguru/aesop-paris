@@ -79,7 +79,7 @@ const products = [
     category: "visage",
     price: 29,
     image:
-      "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602631637744-95548611264d?w=800&auto=format&fit=crop",
     badge: null,
     rating: 4.7,
     reviews: 201,
@@ -90,7 +90,7 @@ const products = [
     category: "corps",
     price: 53,
     image:
-      "https://images.unsplash.com/photo-1715702480583-1f4e3db0408c?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1672883435480-81b9f385654e?w=800&auto=format&fit=crop",
     badge: null,
     rating: 4.5,
     reviews: 76,
@@ -101,7 +101,7 @@ const products = [
     category: "mains",
     price: 33,
     image:
-      "https://images.unsplash.com/photo-1690725219036-87400582edab?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1576536176095-ad6fc461266c?w=800&auto=format&fit=crop",
     badge: "Best-seller",
     rating: 4.9,
     reviews: 312,

@@ -75,6 +75,114 @@ export const productData: Record<
     reviews: 89,
     badge: null,
   },
+  "creme-hydratante-camelia": {
+    name: "Crème Hydratante au Camélia",
+    price: { "60ml": 67, "120ml": 115 },
+    images: [
+      "https://images.unsplash.com/photo-1690725219036-87400582edab?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=1200&auto=format&fit=crop",
+    ],
+    description:
+      "Une crème riche et enveloppante qui nourrit en profondeur les peaux sèches et déshydratées. L'huile de Camélia restaure l'éclat naturel.",
+    benefits: [
+      "Nutrition intense pour peaux sèches",
+      "Restaure l'éclat naturel du teint",
+      "Barrière protectrice contre le froid",
+      "Texture fondante, fini satiné",
+    ],
+    ingredients: [
+      "Huile de Camélia — nutrition et éclat",
+      "Beurre de Karité — réparation cutanée",
+      "Vitamine E — antioxydant naturel",
+      "Extrait de Rose — apaisement et confort",
+    ],
+    application:
+      "Appliquer matin et soir sur le visage et le cou après votre sérum. Masser en mouvements circulaires ascendants jusqu'à absorption complète.",
+    rating: 4.9,
+    reviews: 34,
+    badge: "Nouveau",
+  },
+  "baume-levres-rosehip": {
+    name: "Baume à Lèvres au Rosehip",
+    price: { "15ml": 29 },
+    images: [
+      "https://images.unsplash.com/photo-1602631637744-95548611264d?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1672883435480-81b9f385654e?w=1200&auto=format&fit=crop",
+    ],
+    description:
+      "Un baume protecteur et réparateur pour les lèvres fragilisées par le climat parisien. Le Rosehip nourrit et régénère en continu.",
+    benefits: [
+      "Protection et réparation des lèvres sèches",
+      "Hydratation longue durée jusqu'à 12 heures",
+      "Fini naturel, non collant",
+      "Format compact pour un usage quotidien",
+    ],
+    ingredients: [
+      "Huile de Rosehip — régénération cellulaire",
+      "Cire d'abeille — barrière protectrice naturelle",
+      "Beurre de Cacao — nutrition profonde",
+      "Vitamine C — éclat et protection",
+    ],
+    application:
+      "Appliquer généreusement sur les lèvres aussi souvent que nécessaire. Idéal avant l'exposition au froid ou au vent.",
+    rating: 4.7,
+    reviews: 201,
+    badge: null,
+  },
+  "lotion-corps-geranium": {
+    name: "Lotion Corporelle au Géranium",
+    price: { "200ml": 53, "500ml": 89 },
+    images: [
+      "https://images.unsplash.com/photo-1672883435480-81b9f385654e?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602631637744-95548611264d?w=1200&auto=format&fit=crop",
+    ],
+    description:
+      "Une lotion corporelle légère au parfum délicat de géranium et mandarine. Hydrate et parfume la peau tout au long de la journée.",
+    benefits: [
+      "Hydratation corporelle longue durée",
+      "Parfum frais et botanique de géranium",
+      "Absorption rapide, fini non gras",
+      "Convient à toutes les peaux",
+    ],
+    ingredients: [
+      "Huile essentielle de Géranium — tonifiant et parfumant",
+      "Mandarine — fraîcheur et vitalité",
+      "Aloe Vera — hydratation apaisante",
+      "Huile d'Amande douce — nutrition légère",
+    ],
+    application:
+      "Appliquer sur le corps après la douche, sur peau encore légèrement humide pour optimiser l'absorption. Masser en remontant vers le cœur.",
+    rating: 4.5,
+    reviews: 76,
+    badge: null,
+  },
+  "creme-mains-resurrection": {
+    name: "Crème pour les Mains Resurrection",
+    price: { "75ml": 33, "500ml": 73 },
+    images: [
+      "https://images.unsplash.com/photo-1576536176095-ad6fc461266c?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1690725219036-87400582edab?w=1200&auto=format&fit=crop",
+    ],
+    description:
+      "La crème pour les mains la plus emblématique d'Aesop. Un parfum signature de mandarine, romarin et cèdre qui nourrit les mains abîmées.",
+    benefits: [
+      "Réparation des mains sèches et abîmées",
+      "Parfum signature Aesop reconnaissable",
+      "Absorption rapide, pas de résidu gras",
+      "Adoucit les cuticules et les ongles",
+    ],
+    ingredients: [
+      "Mandarine — fraîcheur et protection",
+      "Romarin — stimulation et réparation",
+      "Cèdre de l'Atlas — parfum boisé signature",
+      "Beurre de Karité — nutrition intense",
+    ],
+    application:
+      "Appliquer une noisette sur les mains aussi souvent que nécessaire. Masser entre les doigts et sur les cuticules pour un soin complet.",
+    rating: 4.9,
+    reviews: 312,
+    badge: "Best-seller Le Bon Marché",
+  },
 };
 
 function AccordionItem({
