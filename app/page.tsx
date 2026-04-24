@@ -29,7 +29,7 @@ const bestsellers = [
     name: "Baume à Lèvres Rosehip",
     price: "29€",
     image:
-      "https://images.unsplash.com/photo-1690725219036-87400582edab?w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602631637744-95548611264d?w=800&auto=format&fit=crop",
     href: "/produits/baume-levres-rosehip",
   },
 ];
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2 aspect-[4/3] relative bg-aesop-amber/10">
               <Image
-                src="https://images.unsplash.com/photo-1690725219036-87400582edab?w=800&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1735448213858-6bdfdf78967a?w=800&auto=format&fit=crop"
                 alt="Boutique Aesop au Bon Marché Paris"
                 fill
                 className="object-cover"

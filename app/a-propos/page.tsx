@@ -56,8 +56,8 @@ export default function AProposPage() {
         {/* Hero */}
         <section className="relative h-[50vh] min-h-[350px] flex items-end">
           <Image
-            src="https://images.unsplash.com/photo-1690725219036-87400582edab?w=1400&auto=format&fit=crop"
-            alt="Produits Aesop — formulations botaniques"
+            src="https://images.unsplash.com/photo-1761746604770-abc00f8e55b8?w=1400&auto=format&fit=crop"
+            alt="Ingrédients botaniques — formulations Aesop"
             fill
             className="object-cover"
             priority
