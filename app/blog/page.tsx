@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import NewsletterForm from "../components/NewsletterForm";
 import { getAllPosts, getCategories } from "@/lib/blog";
 import type { Metadata } from "next";
 
@@ -139,20 +140,9 @@ export default function BlogPage() {
               Conseils de soins, nouveaux articles et événements au Bon Marché.
               Pas de spam, jamais.
             </p>
-            <form className="mt-6 flex max-w-sm mx-auto">
-              <input
-                type="email"
-                placeholder="Votre email"
-                required
-                className="flex-1 border border-aesop-amber/40 bg-transparent px-4 py-2.5 text-sm text-aesop-dark placeholder:text-aesop-dark/30 focus:outline-none focus:border-aesop-earth"
-              />
-              <button
-                type="submit"
-                className="px-6 py-2.5 bg-aesop-earth text-aesop-cream text-sm tracking-wide hover:bg-aesop-dark transition-colors"
-              >
-                S&apos;inscrire
-              </button>
-            </form>
+            <div className="mt-6 max-w-sm mx-auto">
+              <NewsletterForm source="blog_inline" variant="light" />
+            </div>
           </div>
         </section>
       </main>

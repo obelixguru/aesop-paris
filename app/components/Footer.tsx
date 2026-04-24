@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterForm from "./NewsletterForm";
 
 export default function Footer() {
   return (
@@ -54,20 +55,7 @@ export default function Footer() {
             <p className="text-sm mb-4 leading-relaxed">
               Recevez nos routines et conseils de soins.
             </p>
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="flex-1 bg-transparent border border-aesop-cream/30 px-4 py-2 text-sm text-aesop-cream placeholder:text-aesop-cream/40 focus:outline-none focus:border-aesop-amber"
-                required
-              />
-              <button
-                type="submit"
-                className="px-6 py-2 bg-aesop-amber text-aesop-dark text-sm font-medium hover:bg-aesop-cream transition-colors"
-              >
-                Envoyer
-              </button>
-            </form>
+            <NewsletterForm source="footer" variant="dark" />
           </div>
         </div>
 
