@@ -9,28 +9,28 @@ const bestsellers = [
     price: "85€",
     image:
       "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=800&auto=format&fit=crop",
-    href: "/produits",
+    href: "/produits/serum-graine-de-persil",
   },
   {
     name: "Gel Nettoyant Camomille",
     price: "45€",
     image:
       "https://images.unsplash.com/photo-1715702480583-1f4e3db0408c?w=800&auto=format&fit=crop",
-    href: "/produits",
+    href: "/produits/gel-nettoyant-camomille",
   },
   {
     name: "Crème Hydratante Camélia",
     price: "67€",
     image:
       "https://images.unsplash.com/photo-1690725219036-87400582edab?w=800&auto=format&fit=crop",
-    href: "/produits",
+    href: "/produits/creme-hydratante-camelia",
   },
   {
     name: "Baume à Lèvres Rosehip",
     price: "29€",
     image:
-      "https://images.unsplash.com/photo-1715702449456-01929266fea8?w=800&auto=format&fit=crop",
-    href: "/produits",
+      "https://images.unsplash.com/photo-1690725219036-87400582edab?w=800&auto=format&fit=crop",
+    href: "/produits/baume-levres-rosehip",
   },
 ];
 

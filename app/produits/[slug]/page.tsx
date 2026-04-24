@@ -116,16 +116,11 @@ function AccordionItem({
 export default function ProductDetailPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }) {
   const [imageIndex, setImageIndex] = useState(0);
 
-  // Use a default product for unknown slugs
-  const resolvedParams =
-    typeof params === "object" && "slug" in params
-      ? (params as unknown as { slug: string })
-      : { slug: "serum-graine-de-persil" };
-  const slug = resolvedParams.slug;
+  const slug = params.slug;
   const product = productData[slug] || productData["serum-graine-de-persil"];
   const sizes = Object.keys(product.price);
   const [selectedSize, setSelectedSize] = useState(sizes[0]);
