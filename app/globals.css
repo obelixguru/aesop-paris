@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --aesop-cream: #F5F5DC;
+  --aesop-earth: #8B4513;
+  --aesop-amber: #D2B48C;
+  --aesop-dark: #2C1810;
+  --aesop-light: #FAF8F5;
+  --background: var(--aesop-cream);
+  --foreground: var(--aesop-dark);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-aesop-cream: var(--aesop-cream);
+  --color-aesop-earth: var(--aesop-earth);
+  --color-aesop-amber: var(--aesop-amber);
+  --color-aesop-dark: var(--aesop-dark);
+  --color-aesop-light: var(--aesop-light);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--aesop-amber);
+  color: var(--aesop-dark);
+}
