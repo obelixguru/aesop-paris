@@ -31,3 +31,44 @@ body {
   background: var(--aesop-amber);
   color: var(--aesop-dark);
 }
+
+/* Blog article prose */
+.prose-aesop h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--aesop-earth);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-aesop h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--aesop-earth);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-aesop p {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--aesop-dark) 75%, transparent);
+  margin-bottom: 1rem;
+}
+
+.prose-aesop li {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: color-mix(in srgb, var(--aesop-dark) 75%, transparent);
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.prose-aesop li::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  color: var(--aesop-amber);
+}
